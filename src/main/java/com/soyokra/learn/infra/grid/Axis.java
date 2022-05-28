@@ -1,4 +1,4 @@
-package com.soyokra.learn.core.library.grid;
+package com.soyokra.learn.infra.grid;
 
 import lombok.Data;
 

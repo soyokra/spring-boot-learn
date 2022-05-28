@@ -1,4 +1,4 @@
-package com.soyokra.learn.runner;
+package com.soyokra.learn.boot.runner;
 
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;

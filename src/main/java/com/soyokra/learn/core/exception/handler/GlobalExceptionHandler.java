@@ -1,6 +1,6 @@
-package com.soyokra.learn.exception.handler;
+package com.soyokra.learn.core.exception.handler;
 
-import com.soyokra.learn.lib.std.StdResponse;
+import com.soyokra.learn.infra.std.StdResponse;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;

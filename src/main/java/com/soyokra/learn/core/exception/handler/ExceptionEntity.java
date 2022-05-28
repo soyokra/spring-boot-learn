@@ -1,4 +1,4 @@
-package com.soyokra.learn.exception.handler;
+package com.soyokra.learn.core.exception.handler;
 
 public enum ExceptionEntity {
     SUCCESS(0, "success"),

@@ -1,4 +1,4 @@
-package com.soyokra.learn.api.middleware;
+package com.soyokra.learn.boot.adapter;
 
 import org.springframework.core.MethodParameter;
 import org.springframework.http.HttpInputMessage;
