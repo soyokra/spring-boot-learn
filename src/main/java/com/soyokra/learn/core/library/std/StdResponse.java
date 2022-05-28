@@ -1,4 +1,4 @@
-package com.soyokra.learn.infra.std;
+package com.soyokra.learn.core.library.std;
 
 import lombok.Data;
 

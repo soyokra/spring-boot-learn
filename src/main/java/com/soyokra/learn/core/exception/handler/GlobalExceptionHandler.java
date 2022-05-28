@@ -1,6 +1,7 @@
 package com.soyokra.learn.core.exception.handler;
 
-import com.soyokra.learn.infra.std.StdResponse;
+import com.soyokra.learn.core.exception.model.ExceptionModel;
+import com.soyokra.learn.core.library.std.StdResponse;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -15,7 +16,7 @@ public class GlobalExceptionHandler {
     @ExceptionHandler(value = Exception.class)
     @ResponseBody
     public StdResponse<Object> exception(HttpServletRequest request, Exception e) {
-        ExceptionEntity exceptionEntity = ExceptionEntity.SERVER;
-        return StdResponse.error(exceptionEntity.getCode(), e.getMessage());
+        ExceptionModel exceptionModel = ExceptionModel.SERVER;
+        return StdResponse.error(exceptionModel.getCode(), e.getMessage());
     }
 }
