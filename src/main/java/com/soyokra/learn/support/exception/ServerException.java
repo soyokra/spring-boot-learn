@@ -1,6 +1,6 @@
-package com.soyokra.learn.core.exception;
+package com.soyokra.learn.support.exception;
 
-import com.soyokra.learn.core.enums.ExceptionEnum;
+import com.soyokra.learn.support.exception.base.ExceptionEnum;
 
 // 服务异常
 public class ServerException extends BaseException{

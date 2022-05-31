@@ -1,4 +1,4 @@
-package com.soyokra.learn.core.enums;
+package com.soyokra.learn.support.exception.base;
 
 public enum ExceptionEnum {
     SUCCESS(0, "success"),

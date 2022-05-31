@@ -1,9 +1,8 @@
-package com.soyokra.learn.core.handler;
+package com.soyokra.learn.support.exception.base;
 
-import com.soyokra.learn.core.enums.ExceptionEnum;
-import com.soyokra.learn.core.exception.AuthException;
-import com.soyokra.learn.core.exception.BaseException;
-import com.soyokra.learn.core.library.std.StdResponse;
+import com.soyokra.learn.support.exception.AuthException;
+import com.soyokra.learn.support.exception.BaseException;
+import com.soyokra.learn.support.library.std.StdResponse;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.validation.ObjectError;
 import org.springframework.web.bind.MethodArgumentNotValidException;
@@ -16,7 +15,7 @@ import java.util.List;
 
 @Slf4j
 @ControllerAdvice
-public class GlobalExceptionHandler {
+public class ExceptionHandlers {
     @ExceptionHandler(value = BaseException.class)
     @ResponseBody
     public StdResponse<Object> baseException(HttpServletRequest request, BaseException e) {

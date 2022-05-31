@@ -1,7 +1,7 @@
-package com.soyokra.learn.core.exception;
+package com.soyokra.learn.support.exception;
 
 
-import com.soyokra.learn.core.enums.ExceptionEnum;
+import com.soyokra.learn.support.exception.base.ExceptionEnum;
 
 public class BaseException extends RuntimeException {
     protected Integer code;
