@@ -14,7 +14,7 @@ import org.springframework.web.servlet.config.annotation.*;
 import java.util.List;
 
 @Configuration
-public class AppWebMvcConfigurer implements WebMvcConfigurer {
+public class Kernel implements WebMvcConfigurer {
 
     @Override
     public void configurePathMatch(PathMatchConfigurer configurer) {

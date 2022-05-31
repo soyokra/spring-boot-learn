@@ -1,4 +1,4 @@
-package com.soyokra.learn.support.library.std;
+package com.soyokra.learn.support.std;
 
 import java.time.Instant;
 import java.time.LocalDate;

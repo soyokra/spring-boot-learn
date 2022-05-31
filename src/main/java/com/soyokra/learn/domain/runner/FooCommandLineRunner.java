@@ -1,4 +1,4 @@
-package com.soyokra.learn.boot.runner;
+package com.soyokra.learn.domain.runner;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.core.annotation.Order;

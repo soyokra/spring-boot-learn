@@ -1,4 +1,4 @@
-package com.soyokra.learn.boot.interceptor;
+package com.soyokra.learn.api.middleware.interceptor;
 
 import org.springframework.lang.Nullable;
 import org.springframework.web.servlet.HandlerInterceptor;

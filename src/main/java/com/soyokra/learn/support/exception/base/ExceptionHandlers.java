@@ -2,7 +2,7 @@ package com.soyokra.learn.support.exception.base;
 
 import com.soyokra.learn.support.exception.AuthException;
 import com.soyokra.learn.support.exception.BaseException;
-import com.soyokra.learn.support.library.std.StdResponse;
+import com.soyokra.learn.support.std.StdResponse;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.validation.ObjectError;
 import org.springframework.web.bind.MethodArgumentNotValidException;

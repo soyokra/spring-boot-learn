@@ -1,4 +1,4 @@
-package com.soyokra.learn.boot.filter;
+package com.soyokra.learn.api.middleware.filter;
 
 import javax.servlet.*;
 import java.io.IOException;
