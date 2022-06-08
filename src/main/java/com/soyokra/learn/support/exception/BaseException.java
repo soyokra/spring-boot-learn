@@ -3,7 +3,7 @@ package com.soyokra.learn.support.exception;
 
 import com.soyokra.learn.support.exception.base.ExceptionEnum;
 
-public class BaseException extends RuntimeException {
+public class BaseException extends Exception {
     protected Integer code;
 
     protected String message;
